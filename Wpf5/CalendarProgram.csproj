@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="first.jpeg" />
+    <None Remove="fouth.jpeg" />
+    <None Remove="Img\Books.png" />
+    <None Remove="Img\Film.png" />
+    <None Remove="Img\first.jpeg" />
+    <None Remove="Img\fouth.jpeg" />
+    <None Remove="Img\Games.png" />
+    <None Remove="Img\question.png" />
+    <None Remove="Img\second.jpeg" />
+    <None Remove="Img\Sport.png" />
+    <None Remove="Img\Theer.png" />
+    <None Remove="Img\third.jpeg" />
+    <None Remove="left.png" />
+    <None Remove="question.png" />
+    <None Remove="right.png" />
+    <None Remove="second.jpeg" />
+    <None Remove="third.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Img\Film.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Img\Books.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Img\Games.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Img\Theer.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Img\Sport.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="left.png" />
+    <Resource Include="right.png" />
+  </ItemGroup>
+
+</Project>
